@@ -6,8 +6,9 @@ import com.company.matrix.SquareMatrix;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        SquareMatrix matrix = MatrixFactory.createSquareMatrix(1,1);
+    public static void main(String[] args) {
+        int i = 1;
+        SquareMatrix matrix = MatrixFactory.createSquareMatrix(i,i);
         System.out.println(matrix.toString());
     }
 }
